@@ -23,7 +23,7 @@
       </materials>
       <stage name="defaultStage">
         <jobs>
-          <job name="defaultJob">
+          <job name="defaultJob" runOnAllAgents="true" elasticProfileId="elastic-agent">
             <tasks>
               <exec command="ls" />
             </tasks>
