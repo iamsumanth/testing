@@ -5,7 +5,6 @@
     <pipeline name="unique1" isLocked="false">
       <materials>
         <git url="https://github.com/rajiesh/self-express.git" />
-        <pipeline pipelineName="no-duplicate" stageName="defaultStage" materialName="no-duplicate" />
       </materials>
       <stage name="defaultStage">
         <jobs>
